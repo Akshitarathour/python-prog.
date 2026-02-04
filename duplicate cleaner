@@ -1,0 +1,15 @@
+list1=[]
+set1=set()
+list2=[]
+n=int(input("enter no of elements"))
+for i in range(n):
+    el=int(input("enter elements"))
+    list2.append(el)
+for el in list2:
+    if el not in set1:
+        set1.add(el)
+        list1.append(el)
+print("observed list")
+print(list2)
+print("clean list")
+print(list1)
