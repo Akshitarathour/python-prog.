@@ -1,0 +1,9 @@
+info={'riya':'cs','akshu':'ai','amit':'dbms','anand':'eng'}
+value= input("enter value to be searched for: ")
+if value in info.values():
+    for a in info:
+        if info[a]==value:
+            print("the key of the given value is ",a)
+            break
+else:
+    print("given value does not exist in dict") 
